@@ -1,0 +1,49 @@
+{
+  "statistical": {
+    "Kurtosis": {
+      "complexity": "constant",
+      "description": "Computes kurtosis of the signal.",
+      "function": "tsfel.kurtosis",
+      "parameters": "",
+      "n_features": 1,
+      "use": "yes"
+    },
+    "Mean": {
+      "complexity": "constant",
+      "description": "Computes the mean value of the signal.",
+      "function": "tsfel.calc_mean",
+      "parameters": "",
+      "n_features": 1,
+      "use": "yes",
+      "tag": "inertial"
+    },
+    "Root mean square": {
+      "complexity": "constant",
+      "description": "Computes root mean square of the signal.",
+      "function": "tsfel.rms",
+      "parameters": "",
+      "n_features": 1,
+      "use": "yes",
+      "tag": [
+        "emg",
+        "inertial"
+      ]
+    },
+    "Skewness": {
+      "complexity": "constant",
+      "description": "Computes skewness of the signal.",
+      "function": "tsfel.skewness",
+      "parameters": "",
+      "n_features": 1,
+      "use": "yes"
+    },
+    "Standard deviation": {
+      "complexity": "constant",
+      "description": "Computes standard deviation of the signal.",
+      "function": "tsfel.calc_std",
+      "parameters": "",
+      "n_features": 1,
+      "use": "yes"
+    }
+  }
+}
